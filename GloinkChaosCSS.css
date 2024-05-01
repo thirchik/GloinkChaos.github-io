@@ -1,5 +1,5 @@
 body {
-    background-image: url("/Images/The_Nest_Entrance.png");
+    background-image: url("Images/The_Nest_Entrance.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -103,7 +103,7 @@ a.button {
     font-weight: 700;
     color: #fff;
     border: 0;
-    background-image: url("/Images/button.png");
+    background-image: url("Images/button.png");
     background-size: cover;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;
@@ -134,7 +134,7 @@ a.button:hover {
 .instructions {
     padding: 1rem;
     width: 37rem;
-    height: 26rem;
+    height: 27rem;
     border: 0;
     background-color: #f8d78f;
     font-family: "Silkscreen", sans-serif;
@@ -152,7 +152,7 @@ a.button2 {
     font-weight: 700;
     color: #fff;
     border: 0;
-    background-image: url("/Images/button.png");
+    background-image: url("Images/button.png");
     background-size: cover;
     -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;
