@@ -1,0 +1,173 @@
+body {
+    background-image: url("/Images/The_Nest_Entrance.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    margin: 0;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.objects {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    bottom: 0;
+}
+
+.circusimages {
+    width: 150px;
+    filter: drop-shadow(0 0 0.75rem pink);
+}
+
+.flowerpot {
+    width: 150px;
+    filter: drop-shadow(0 0 0.75rem pink);
+    margin-left: 70px;
+    rotate: 25deg;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-content: center;
+}
+
+.logo {
+    display: block;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.gamename {
+    margin-top: 3rem;
+    font-size: 130px;
+    font-family: "Luckiest Guy", cursive;
+    color: white;
+}
+
+.objects2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.gloink4 {
+    width: 27%;
+    filter: drop-shadow(0 0 0.75rem pink);
+    margin-right: 80px;
+    rotate: -25deg;
+    transition: rotate 0.5s;
+}
+
+.gloink4:hover {
+    rotate: 360deg;
+}
+
+a.button {
+    display: block;
+    margin-top: -1rem;
+    width: 230px;
+    height: 80px;
+    font-size: 50px;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    background-image: url("/Images/button.png");
+    background-size: cover;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    box-shadow: 10px 6px 0px #f5d754, -10px -6px 0px #1c49ee;
+    text-decoration: none;
+    margin:  0 auto;
+    transition:
+    height 0.5s,
+    width 0.5s,
+    rotate 0.5s;
+}
+
+a.button:hover {
+    height: 90px;
+    width: 240px;
+    rotate: 5deg;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.instructions {
+    padding: 1rem;
+    width: 37rem;
+    height: 26rem;
+    border: 0;
+    background-color: #f8d78f;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 15px;
+    color: #790417;
+    box-shadow: 10px 10px 0px #eb743e, -10px -10px 0px #bb133d;
+}
+
+a.button2 {
+    display: block;
+    width: 280px;
+    height: 70px;
+    font-size: 45px;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    border: 0;
+    background-image: url("/Images/button.png");
+    background-size: cover;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: black;
+    box-shadow: 10px 6px 0px #f5d754, -10px -6px 0px #1c49ee;
+    text-decoration: none;
+    margin:  0 auto;
+    transition:
+    height 0.5s,
+    width 0.5s,
+    rotate 0.5s;
+}
+
+a.button2:hover {
+    height: 80px;
+    width: 290px;
+    rotate: 5deg;
+}
+
